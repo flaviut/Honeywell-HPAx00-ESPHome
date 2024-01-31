@@ -24,9 +24,9 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 
 ### SMD
 
-- 2x 16V+, 1uF+, 0805 ceramic capacitor
-- 9x 0603 LEDs
-- 9x 330Ω, 0603 resistors
+- 5x 16V+, 1uF+, 0805 ceramic capacitor
+- 10x SKC6812 LEDs
+- 1x M7 SMA diode
 
 ## Installation
 
@@ -63,3 +63,7 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 ## Software
 
 Not yet implemented. https://www.reddit.com/r/Esphome/comments/175oevr/can_i_make_this_filtrete_air_purifier_smart/k4r254h/ looks like a good starting point.
+
+## Credits
+
+- Thank you to [Keith Burzinski](https://github.com/kbx81) for reviewing my design through endless revisions!

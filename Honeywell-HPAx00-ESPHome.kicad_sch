@@ -826,28 +826,29 @@
 
   (no_connect (at 172.72 88.9) (uuid 132aa6fc-8c52-4a5f-b440-d21fef9dd80e))
   (no_connect (at 146.05 81.28) (uuid 1b069d0d-41df-4155-8122-6cacdd7051f2))
+  (no_connect (at 146.05 58.42) (uuid 1b4444a7-5c68-418a-9d1a-c35a6c954b84))
   (no_connect (at 146.05 76.2) (uuid 1ffb995a-110e-44c6-b463-24ff2cad2258))
   (no_connect (at 146.05 63.5) (uuid 24d84aa6-ff75-46c4-bcc5-f30767eff6bc))
   (no_connect (at 172.72 86.36) (uuid 2c3099f7-fdcc-4ba3-9d29-ff3396e5f3a8))
   (no_connect (at 146.05 99.06) (uuid 35895831-b074-4a3c-af54-70eb35da9985))
   (no_connect (at 172.72 78.74) (uuid 3d2ac6bf-a006-4515-ae42-c9917bca87d3))
+  (no_connect (at 146.05 106.68) (uuid 3e7d203a-0d25-4a21-802a-a75d3d5d822a))
   (no_connect (at 146.05 93.98) (uuid 4a77e2f4-6e88-4ea6-b075-9bcd775f39e5))
   (no_connect (at 237.49 138.43) (uuid 5186a4c2-da6f-4f53-9018-97371d2976fe))
   (no_connect (at 146.05 83.82) (uuid 58faccc0-b6b6-4cce-a546-1277df3566ea))
   (no_connect (at 172.72 66.04) (uuid 642f17b4-21c4-4ce7-81c9-2997f39dcef3))
-  (no_connect (at 146.05 78.74) (uuid 6b782249-e5c6-4457-86dc-5d7d79a1ac13))
   (no_connect (at 172.72 83.82) (uuid 7e7defb2-bd3f-4dd2-bdd6-0c4e1472e5cc))
-  (no_connect (at 146.05 73.66) (uuid 9e2972b7-f7f2-459c-b0ee-f1da8cbb266b))
-  (no_connect (at 146.05 68.58) (uuid aa11747b-aed8-4a71-a4f3-6105bb093aa9))
+  (no_connect (at 146.05 111.76) (uuid 89ca603f-d2fa-47ed-8da7-87a9254ff870))
   (no_connect (at 146.05 91.44) (uuid ad909d6d-aff8-442a-bfc0-006695e9bf1f))
   (no_connect (at 146.05 66.04) (uuid b6e68c3c-61cf-4185-9e2f-36912455776c))
   (no_connect (at 146.05 60.96) (uuid bb33143e-7cba-49cf-89cd-de8061b818ef))
+  (no_connect (at 146.05 53.34) (uuid d10c716a-78a8-413a-86d2-f337257a74cd))
   (no_connect (at 172.72 81.28) (uuid d242eb2e-14cd-459d-88ea-07e8e86a814a))
   (no_connect (at 172.72 91.44) (uuid d6e7dec4-05b4-402e-8efa-a383dcf391ce))
   (no_connect (at 146.05 96.52) (uuid dc385df0-a3d6-4f48-8277-7384fc6cd2c3))
   (no_connect (at 172.72 93.98) (uuid f825dba6-7319-4688-8eb5-4ca89a83ba1b))
 
-  (wire (pts (xy 144.78 53.34) (xy 146.05 53.34))
+  (wire (pts (xy 144.78 68.58) (xy 146.05 68.58))
     (stroke (width 0) (type default))
     (uuid 038e0f55-61b2-443c-8f57-92d83a45b571)
   )
@@ -867,13 +868,9 @@
     (stroke (width 0) (type default))
     (uuid 0a771d3b-4d0b-4492-99b0-e6b1698c8907)
   )
-  (wire (pts (xy 140.97 104.14) (xy 140.97 99.06))
+  (wire (pts (xy 129.54 78.74) (xy 146.05 78.74))
     (stroke (width 0) (type default))
-    (uuid 138ad766-2574-4796-bd97-c117a73a4bd1)
-  )
-  (wire (pts (xy 138.43 101.6) (xy 138.43 91.44))
-    (stroke (width 0) (type default))
-    (uuid 13b6d47f-4ccb-4bdd-b643-efdd468db6d4)
+    (uuid 13190841-af6d-40c3-b394-eae0865a6e5e)
   )
   (wire (pts (xy 144.78 71.12) (xy 146.05 71.12))
     (stroke (width 0) (type default))
@@ -883,10 +880,6 @@
     (stroke (width 0) (type default))
     (uuid 18f31773-9600-423a-9d41-3f27c16d805f)
   )
-  (wire (pts (xy 129.54 86.36) (xy 146.05 86.36))
-    (stroke (width 0) (type default))
-    (uuid 1d310378-1328-4feb-974b-db98aa207e6d)
-  )
   (wire (pts (xy 83.82 123.19) (xy 83.82 130.81))
     (stroke (width 0) (type default))
     (uuid 1eb0bf3c-d08e-4fb8-9997-d64da640b82b)
@@ -895,7 +888,7 @@
     (stroke (width 0) (type default))
     (uuid 283c321a-ff4d-413a-8f56-214d49653e7b)
   )
-  (wire (pts (xy 135.89 104.14) (xy 128.27 104.14))
+  (wire (pts (xy 128.27 109.22) (xy 138.43 109.22))
     (stroke (width 0) (type default))
     (uuid 30abc3bd-c64c-45f8-b733-449b5c90a08d)
   )
@@ -907,13 +900,9 @@
     (stroke (width 0) (type default))
     (uuid 3453b1cf-15d8-4bed-8da1-194acbb2b80d)
   )
-  (wire (pts (xy 146.05 111.76) (xy 72.39 111.76))
+  (wire (pts (xy 146.05 101.6) (xy 138.43 101.6))
     (stroke (width 0) (type default))
-    (uuid 37c796bb-02bc-49f3-aeed-9d79bffaf84a)
-  )
-  (wire (pts (xy 140.97 99.06) (xy 128.27 99.06))
-    (stroke (width 0) (type default))
-    (uuid 3bd13387-029c-4a77-aad0-a48c4887a6c7)
+    (uuid 3899c1c3-d2bf-44b2-a161-f207bc47d625)
   )
   (wire (pts (xy 172.72 60.96) (xy 172.72 63.5))
     (stroke (width 0) (type default))
@@ -923,15 +912,11 @@
     (stroke (width 0) (type default))
     (uuid 3d218de3-fb33-42a0-a847-159242e7c7b3)
   )
-  (wire (pts (xy 143.51 101.6) (xy 146.05 101.6))
-    (stroke (width 0) (type default))
-    (uuid 3eac3cfb-e7a2-404a-9a88-f5084cd6c335)
-  )
   (wire (pts (xy 184.15 146.05) (xy 199.39 146.05))
     (stroke (width 0) (type default))
     (uuid 412addf0-dcae-41fc-a9d1-80f6f8f1be51)
   )
-  (wire (pts (xy 128.27 101.6) (xy 138.43 101.6))
+  (wire (pts (xy 128.27 106.68) (xy 140.97 106.68))
     (stroke (width 0) (type default))
     (uuid 44fb8b05-77b7-41b5-b22a-4035d2734241)
   )
@@ -939,7 +924,7 @@
     (stroke (width 0) (type default))
     (uuid 45dc4b2a-06c7-4f74-990b-8c4cb63bc84f)
   )
-  (wire (pts (xy 128.27 96.52) (xy 143.51 96.52))
+  (wire (pts (xy 128.27 101.6) (xy 137.16 101.6))
     (stroke (width 0) (type default))
     (uuid 48ebf4c1-0ad7-4348-8771-4b891c97efd8)
   )
@@ -955,21 +940,21 @@
     (stroke (width 0) (type default))
     (uuid 4cbb5708-f7ae-499b-9d52-d3e9325cf591)
   )
-  (wire (pts (xy 129.54 91.44) (xy 129.54 86.36))
-    (stroke (width 0) (type default))
-    (uuid 4dddc1aa-ebf1-482f-b5d9-fb8bb3f340a7)
-  )
   (wire (pts (xy 83.82 146.05) (xy 107.95 146.05))
     (stroke (width 0) (type default))
     (uuid 5078372d-6a10-4bec-9570-a754a7cd8704)
   )
-  (wire (pts (xy 129.54 92.71) (xy 129.54 93.98))
+  (wire (pts (xy 129.54 97.79) (xy 129.54 99.06))
     (stroke (width 0) (type default))
     (uuid 538eb8d8-3f2b-4a38-b8ef-18da17e24a36)
   )
   (wire (pts (xy 184.15 59.69) (xy 184.15 60.96))
     (stroke (width 0) (type default))
     (uuid 53b5fd88-43c8-4e11-83d0-0d857d63f94f)
+  )
+  (wire (pts (xy 140.97 109.22) (xy 146.05 109.22))
+    (stroke (width 0) (type default))
+    (uuid 5c280de0-8299-4ba4-ad1a-b7b739691610)
   )
   (wire (pts (xy 172.72 49.53) (xy 184.15 49.53))
     (stroke (width 0) (type default))
@@ -979,10 +964,6 @@
     (stroke (width 0) (type default))
     (uuid 5d64dd65-215e-44f3-bdfd-ab33e77f900a)
   )
-  (wire (pts (xy 129.54 91.44) (xy 138.43 91.44))
-    (stroke (width 0) (type default))
-    (uuid 5d85c584-14e2-4515-86b8-063320bbfc0f)
-  )
   (wire (pts (xy 184.15 129.54) (xy 184.15 130.81))
     (stroke (width 0) (type default))
     (uuid 632fd2f5-a8aa-42af-b0df-db39f3bb08be)
@@ -991,21 +972,17 @@
     (stroke (width 0) (type default))
     (uuid 648a1c68-4152-4130-b80a-98080bc69ac5)
   )
+  (wire (pts (xy 72.39 55.88) (xy 72.39 138.43))
+    (stroke (width 0) (type default))
+    (uuid 6830a282-bdba-44e9-9c57-c64e9d3ed458)
+  )
   (wire (pts (xy 184.15 60.96) (xy 193.04 60.96))
     (stroke (width 0) (type default))
     (uuid 6ebcfb7c-e5b5-4a10-9e1d-e8cfe8fc9821)
   )
-  (wire (pts (xy 146.05 109.22) (xy 135.89 109.22))
-    (stroke (width 0) (type default))
-    (uuid 71b9d1cf-c556-4cc1-b9fb-8da6f8bee9e3)
-  )
   (wire (pts (xy 168.91 146.05) (xy 184.15 146.05))
     (stroke (width 0) (type default))
     (uuid 73afb7b4-e09d-45e1-917b-083c4056b2ae)
-  )
-  (wire (pts (xy 143.51 96.52) (xy 143.51 101.6))
-    (stroke (width 0) (type default))
-    (uuid 74f72c66-3c9a-40e2-9911-b4a67d5044e5)
   )
   (wire (pts (xy 214.63 146.05) (xy 229.87 146.05))
     (stroke (width 0) (type default))
@@ -1019,7 +996,7 @@
     (stroke (width 0) (type default))
     (uuid 887014bb-0118-4479-886c-688efbe6e83d)
   )
-  (wire (pts (xy 144.78 58.42) (xy 146.05 58.42))
+  (wire (pts (xy 144.78 73.66) (xy 146.05 73.66))
     (stroke (width 0) (type default))
     (uuid 8a3c858a-2a4f-4589-96e6-306a66d5dbad)
   )
@@ -1035,9 +1012,9 @@
     (stroke (width 0) (type default))
     (uuid 9d3e376b-1a19-4dc9-9695-58cbbc026fbb)
   )
-  (wire (pts (xy 72.39 111.76) (xy 72.39 138.43))
+  (wire (pts (xy 146.05 55.88) (xy 72.39 55.88))
     (stroke (width 0) (type default))
-    (uuid 9e64b047-7206-49e8-ac5c-aa5e938bc91a)
+    (uuid a1f8cc54-c0c9-4e97-a569-4345608872b9)
   )
   (wire (pts (xy 83.82 123.19) (xy 90.17 123.19))
     (stroke (width 0) (type default))
@@ -1051,11 +1028,7 @@
     (stroke (width 0) (type default))
     (uuid a5913fe6-c48d-4277-8f6e-6fd35e92dfc2)
   )
-  (wire (pts (xy 135.89 109.22) (xy 135.89 104.14))
-    (stroke (width 0) (type default))
-    (uuid b08df325-c17d-46c2-92ac-5d982dc6808b)
-  )
-  (wire (pts (xy 144.78 55.88) (xy 146.05 55.88))
+  (wire (pts (xy 144.78 86.36) (xy 146.05 86.36))
     (stroke (width 0) (type default))
     (uuid b2b182ca-2385-4960-a4a5-5924b2b2829e)
   )
@@ -1067,21 +1040,37 @@
     (stroke (width 0) (type default))
     (uuid c9f4683a-0253-49ed-94d6-d4efb31f5d09)
   )
+  (wire (pts (xy 138.43 101.6) (xy 138.43 109.22))
+    (stroke (width 0) (type default))
+    (uuid cb8d8a2e-6e82-4265-9011-d14736332663)
+  )
   (wire (pts (xy 214.63 129.54) (xy 214.63 130.81))
     (stroke (width 0) (type default))
     (uuid cc7b0de4-8563-401b-bb2a-f2a89951631a)
   )
-  (wire (pts (xy 129.54 93.98) (xy 128.27 93.98))
+  (wire (pts (xy 129.54 99.06) (xy 128.27 99.06))
     (stroke (width 0) (type default))
     (uuid cd9be189-7b37-4b42-8820-118ea65427c8)
+  )
+  (wire (pts (xy 129.54 78.74) (xy 129.54 92.71))
+    (stroke (width 0) (type default))
+    (uuid cdff55e8-4e80-4fe9-b505-bff91c2ef274)
   )
   (wire (pts (xy 90.17 123.19) (xy 90.17 125.73))
     (stroke (width 0) (type default))
     (uuid ce5a0687-e045-49ce-9464-8600550e8fa2)
   )
+  (wire (pts (xy 140.97 106.68) (xy 140.97 109.22))
+    (stroke (width 0) (type default))
+    (uuid d029b8ad-68b8-4123-9aa3-ff2f48b241d5)
+  )
   (wire (pts (xy 107.95 129.54) (xy 107.95 130.81))
     (stroke (width 0) (type default))
     (uuid d1c31895-cc73-46f7-ba0e-8c14dcecdaee)
+  )
+  (wire (pts (xy 129.54 92.71) (xy 137.16 92.71))
+    (stroke (width 0) (type default))
+    (uuid d3eeaf9b-c4f6-4b4c-8ce9-8fddb00a33aa)
   )
   (wire (pts (xy 153.67 146.05) (xy 168.91 146.05))
     (stroke (width 0) (type default))
@@ -1095,9 +1084,13 @@
     (stroke (width 0) (type default))
     (uuid d6b13d28-1e5e-48b7-89ad-d82df6b13a58)
   )
-  (wire (pts (xy 146.05 104.14) (xy 140.97 104.14))
+  (wire (pts (xy 137.16 92.71) (xy 137.16 101.6))
     (stroke (width 0) (type default))
-    (uuid dbd0a6e6-df0b-44f8-a661-150ff93469d4)
+    (uuid dd8b8cb1-5683-453f-bf03-0e5e390fa778)
+  )
+  (wire (pts (xy 128.27 104.14) (xy 146.05 104.14))
+    (stroke (width 0) (type default))
+    (uuid e2056cba-d33b-44c6-9e46-2a2270ae9563)
   )
   (wire (pts (xy 91.44 138.43) (xy 100.33 138.43))
     (stroke (width 0) (type default))
@@ -1146,12 +1139,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d42aafea-552b-4ade-a202-ac7dd07aaea3)
   )
+  (text "touch may be:\nIO00 IO02 IO04 IO12 IO13\nIO14 IO15 IO27 IO32 IO33"
+    (at 125.73 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dedd6746-1060-4e99-b36e-ff23dbebb51d)
+  )
 
-  (label "FAN_W" (at 128.27 104.14 0) (fields_autoplaced)
+  (label "FAN_W" (at 128.27 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17eccf61-9379-4b1b-b4dd-09c40fb11c81)
   )
-  (label "FAN_M" (at 128.27 99.06 0) (fields_autoplaced)
+  (label "FAN_M" (at 128.27 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57ab6c71-94ad-4d11-8665-3e539c04f29d)
   )
@@ -1159,11 +1157,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 85e04ed9-e267-4ab5-8ce7-ec94c4489e91)
   )
-  (label "FAN_H" (at 128.27 96.52 0) (fields_autoplaced)
+  (label "FAN_H" (at 128.27 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aaf2584c-121d-485b-a173-10c535d7416b)
   )
-  (label "FAN_L" (at 128.27 101.6 0) (fields_autoplaced)
+  (label "FAN_L" (at 128.27 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dede2929-daf6-40f2-bc34-1d9e36043551)
   )
@@ -1175,24 +1173,24 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_PREFILTER" (shape passive) (at 144.78 53.34 180) (fields_autoplaced)
+  (global_label "BUTT_PREFILTER" (shape passive) (at 144.78 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1d82ef27-7623-4ec1-a35b-10fdccd552f5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.5733 53.34 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.5733 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_DIMMER" (shape passive) (at 116.84 54.61 180) (fields_autoplaced)
+  (global_label "BUTT_DIMMER" (shape passive) (at 91.44 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 28f66138-dc72-4b84-b77e-c0bef23f0844)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.2338 54.61 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.8338 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_TURBO" (shape passive) (at 116.84 59.69 180) (fields_autoplaced)
+  (global_label "BUTT_TURBO" (shape passive) (at 91.44 67.31 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2cb138f6-3f99-4253-9ebc-570abe13c87e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 104.2618 59.69 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.8618 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1203,10 +1201,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_FILTER" (shape passive) (at 144.78 55.88 180) (fields_autoplaced)
+  (global_label "BUTT_FILTER" (shape passive) (at 144.78 86.36 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 812650af-fce2-4eab-ab87-6875b8ae4a82)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.2623 55.88 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.2623 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1217,38 +1215,38 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_POWER" (shape passive) (at 116.84 64.77 180) (fields_autoplaced)
+  (global_label "BUTT_POWER" (shape passive) (at 91.44 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8d98daa3-3cda-4986-817d-8fb9aece4a70)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.9595 64.77 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.5595 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_TIMER" (shape passive) (at 144.78 58.42 180) (fields_autoplaced)
+  (global_label "BUTT_TIMER" (shape passive) (at 144.78 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9d75dc6a-b565-4a37-a3ef-6a18ce261ccc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.9276 58.42 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.9276 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_PREFILTER" (shape passive) (at 116.84 74.93 180) (fields_autoplaced)
+  (global_label "BUTT_PREFILTER" (shape passive) (at 91.44 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d3d41179-0318-43c3-a700-6f6522c5575b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 100.6333 74.93 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 75.2333 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_TIMER" (shape passive) (at 116.84 80.01 180) (fields_autoplaced)
+  (global_label "BUTT_TIMER" (shape passive) (at 91.44 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d874db13-3b5a-4be2-9a82-23088f54e92b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 104.9876 80.01 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 79.5876 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BUTT_FILTER" (shape passive) (at 116.84 69.85 180) (fields_autoplaced)
+  (global_label "BUTT_FILTER" (shape passive) (at 91.44 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dc82a719-8506-4335-9202-56056776523f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 104.3223 69.85 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.9223 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1270,7 +1268,7 @@
     )
     (pin "1" (uuid 63cd0199-9421-4924-a233-00fc38a1b1b1))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR09") (unit 1)
         )
@@ -1301,7 +1299,7 @@
     (pin "1" (uuid 64e9ec92-61c8-41b1-bc2c-42f42cb16af8))
     (pin "2" (uuid 3424f82c-3e1c-4101-8682-2ef81e99cc12))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D9") (unit 1)
         )
@@ -1326,7 +1324,7 @@
     )
     (pin "1" (uuid 73fbb256-571e-42aa-a0c7-a3308c1b2bbb))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR03") (unit 1)
         )
@@ -1351,7 +1349,7 @@
     )
     (pin "1" (uuid 64c82a4c-6830-45d9-b547-fc532c5546cc))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR011") (unit 1)
         )
@@ -1382,7 +1380,7 @@
     (pin "1" (uuid 05513a4a-a4d8-43a8-9a08-b511403d85f0))
     (pin "2" (uuid d6382d47-8b67-4ebd-acc9-9978e84b2e9e))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D7") (unit 1)
         )
@@ -1390,24 +1388,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 129.54 92.71 90) (mirror x) (unit 1)
+  (symbol (lib_id "power:GND") (at 129.54 97.79 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2aa9905e-0939-4c92-8f7f-2f3864896ed4)
-    (property "Reference" "#PWR01" (at 135.89 92.71 0)
+    (property "Reference" "#PWR01" (at 135.89 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 132.7149 92.71 90)
+    (property "Value" "GND" (at 132.7149 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 129.54 92.71 0)
+    (property "Footprint" "" (at 129.54 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 129.54 92.71 0)
+    (property "Datasheet" "" (at 129.54 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0e677700-7daf-4744-b6c6-4157e02c1a53))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR01") (unit 1)
         )
@@ -1438,7 +1436,7 @@
     (pin "1" (uuid e3ee5ac5-93bb-47ea-b1e6-3c62d7450cae))
     (pin "2" (uuid d2e45bb8-911f-4a5b-8a84-389f36d5f960))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D5") (unit 1)
         )
@@ -1446,24 +1444,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 74.93 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4286dbf5-0d4c-48b1-98c4-236afaa04966)
-    (property "Reference" "J6" (at 123.952 74.93 0)
+    (property "Reference" "J6" (at 98.552 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 76.1421 0)
+    (property "Value" "Conn_01x01" (at 98.552 83.7621 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 74.93 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 74.93 0)
+    (property "Datasheet" "~" (at 96.52 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 70591c67-338f-4d72-b3ef-c8c51c816fc3))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J6") (unit 1)
         )
@@ -1492,7 +1490,7 @@
     (pin "2" (uuid 68416457-1007-470e-ac66-6746a69e5b54))
     (pin "1" (uuid 1d3a9ce7-97d3-435f-ace7-b63b1089f793))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C1") (unit 1)
         )
@@ -1521,7 +1519,7 @@
     (pin "2" (uuid 31665a2a-5bac-4c24-96aa-811cc57b35c9))
     (pin "1" (uuid b4654802-083a-40b4-81af-548c92989827))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C5") (unit 1)
         )
@@ -1529,24 +1527,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 80.01 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65546350-a732-4ce9-9281-73f70fa35a73)
-    (property "Reference" "J7" (at 123.952 80.01 0)
+    (property "Reference" "J7" (at 98.552 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 81.2221 0)
+    (property "Value" "Conn_01x01" (at 98.552 88.8421 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 80.01 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 80.01 0)
+    (property "Datasheet" "~" (at 96.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 512add85-735f-476c-98f3-4c83b959fff1))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J7") (unit 1)
         )
@@ -1571,7 +1569,7 @@
     )
     (pin "1" (uuid 322a21fd-1b1c-408f-811a-eae3b8bf2687))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR010") (unit 1)
         )
@@ -1602,7 +1600,7 @@
     (pin "1" (uuid ee0426b3-0bda-401f-9b76-4dabae322e7d))
     (pin "2" (uuid 4c4d10b8-fedf-4486-b72f-5a86a5fdc426))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D8") (unit 1)
         )
@@ -1627,7 +1625,7 @@
     )
     (pin "1" (uuid 9bf3099d-b1aa-4812-834b-0a7c8e32cdb5))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR07") (unit 1)
         )
@@ -1652,7 +1650,7 @@
     )
     (pin "1" (uuid e9171007-b04a-447b-9d3c-795d8ae70a19))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR04") (unit 1)
         )
@@ -1716,7 +1714,7 @@
     (pin "22" (uuid c6cbd9d9-64bc-4083-8508-60906417afc5))
     (pin "12" (uuid 3bf5bcd5-203a-438c-b60f-ce9bcc08cd52))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "U1") (unit 1)
         )
@@ -1741,7 +1739,7 @@
     )
     (pin "1" (uuid 22328e06-c461-4c76-bc29-2cf66b70d29f))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR08") (unit 1)
         )
@@ -1766,7 +1764,7 @@
     )
     (pin "1" (uuid 43e04f6d-4e11-48ad-a9a5-64869ec48385))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR06") (unit 1)
         )
@@ -1795,7 +1793,7 @@
     (pin "2" (uuid 3fb756a8-136a-4c3c-bcc4-1f54691f1054))
     (pin "1" (uuid 385bd18b-17f9-4579-8fe3-d7e37122a125))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C3") (unit 1)
         )
@@ -1803,24 +1801,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 54.61 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 927f9f27-abaa-4102-8b3b-99f5c6648f18)
-    (property "Reference" "J2" (at 123.952 54.61 0)
+    (property "Reference" "J2" (at 98.552 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 55.8221 0)
+    (property "Value" "Conn_01x01" (at 98.552 63.4421 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 54.61 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 54.61 0)
+    (property "Datasheet" "~" (at 96.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 82595494-a0f5-4471-ab66-4d874e0f3320))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J2") (unit 1)
         )
@@ -1849,7 +1847,7 @@
     (pin "2" (uuid 3f846fe3-695c-4512-b23f-dbc651a4c7f2))
     (pin "1" (uuid cb7ffc48-870d-4279-a94e-03f5fd54f256))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C4") (unit 1)
         )
@@ -1878,7 +1876,7 @@
     (pin "2" (uuid 8e7a63c2-6d18-4b8b-a48c-0a5c8719ed5e))
     (pin "1" (uuid 0bc92a52-dc14-4843-9e18-6827679fcf3e))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C2") (unit 1)
         )
@@ -1886,24 +1884,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 69.85 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6d613ba-01c9-4cf9-a010-1027e316d00d)
-    (property "Reference" "J5" (at 123.952 69.85 0)
+    (property "Reference" "J5" (at 98.552 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 71.0621 0)
+    (property "Value" "Conn_01x01" (at 98.552 78.6821 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 69.85 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 69.85 0)
+    (property "Datasheet" "~" (at 96.52 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3aad92ed-6110-450c-8f15-c6bd6520614d))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J5") (unit 1)
         )
@@ -1911,24 +1909,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 128.27 106.68 270) (mirror x) (unit 1)
+  (symbol (lib_id "power:+5V") (at 128.27 111.76 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9405e0e-9c13-4549-aa8e-51257d4b7a79)
-    (property "Reference" "#PWR02" (at 124.46 106.68 0)
+    (property "Reference" "#PWR02" (at 124.46 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 131.4449 106.68 90)
+    (property "Value" "+5V" (at 131.4449 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 128.27 106.68 0)
+    (property "Footprint" "" (at 128.27 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 128.27 106.68 0)
+    (property "Datasheet" "" (at 128.27 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc5c589c-4e56-45ef-8033-65a0a568c0aa))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR02") (unit 1)
         )
@@ -1953,7 +1951,7 @@
     )
     (pin "1" (uuid 2c6cb459-7b33-4ffb-a20a-02971ab4fabc))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "#PWR05") (unit 1)
         )
@@ -1961,24 +1959,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 64.77 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b84d38f0-5e12-45f9-8b36-ea0a77768e8a)
-    (property "Reference" "J4" (at 123.952 64.77 0)
+    (property "Reference" "J4" (at 98.552 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 65.9821 0)
+    (property "Value" "Conn_01x01" (at 98.552 73.6021 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 64.77 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 64.77 0)
+    (property "Datasheet" "~" (at 96.52 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 13d31a00-ed69-4358-8c12-b53b3ecca004))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J4") (unit 1)
         )
@@ -2013,7 +2011,7 @@
     (pin "2" (uuid 64787d11-9514-42b0-88c3-7f1089c37588))
     (pin "1" (uuid e6a1eb2f-dfe6-48a2-8787-33e3fdbc0480))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D1") (unit 1)
         )
@@ -2042,7 +2040,7 @@
     (pin "2" (uuid c23f4c3f-c543-46ae-81fa-e4d47f4c9de5))
     (pin "1" (uuid 11038bf3-a221-4691-912a-5018b7d9d973))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "C6") (unit 1)
         )
@@ -2050,24 +2048,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 121.92 59.69 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 96.52 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf1a9afa-c88d-40d2-98df-6293e455f914)
-    (property "Reference" "J3" (at 123.952 59.69 0)
+    (property "Reference" "J3" (at 98.552 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01" (at 123.952 60.9021 0)
+    (property "Value" "Conn_01x01" (at 98.552 68.5221 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 121.92 59.69 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 96.52 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 59.69 0)
+    (property "Datasheet" "~" (at 96.52 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f5d20f12-c602-4afc-ba53-7afccb779aa3))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J3") (unit 1)
         )
@@ -2098,7 +2096,7 @@
     (pin "1" (uuid c7fa45ef-2b63-40b1-b94e-db12f12cdbc5))
     (pin "2" (uuid 0f678d2d-dccb-4d7c-a248-494cb07b9eab))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D11") (unit 1)
         )
@@ -2106,19 +2104,19 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 123.19 101.6 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 123.19 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5a9d44d-a50d-4f15-b177-ca1f100bc35d)
-    (property "Reference" "J1" (at 121.158 101.5421 0)
+    (property "Reference" "J1" (at 121.158 106.6221 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x06" (at 121.158 99.1179 0)
+    (property "Value" "Conn_01x06" (at 121.158 104.1979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" (at 123.19 101.6 0)
+    (property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" (at 123.19 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 123.19 101.6 0)
+    (property "Datasheet" "~" (at 123.19 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid f41b2281-8d1f-4a1c-a5f7-d11b131076a0))
@@ -2128,7 +2126,7 @@
     (pin "6" (uuid 85ac7dca-8476-43f7-ae28-7f512e2bda1f))
     (pin "1" (uuid a67c0fd8-9e26-4a87-90f8-24fc3b1467c3))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "J1") (unit 1)
         )
@@ -2159,7 +2157,7 @@
     (pin "1" (uuid bcc48f27-3cac-4221-81bd-79a61e8301a0))
     (pin "2" (uuid 1f1206cd-acb1-4011-a1f7-74051f07467a))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D10") (unit 1)
         )
@@ -2190,7 +2188,7 @@
     (pin "1" (uuid 542b81a5-860c-4123-87df-6ed764479ee5))
     (pin "2" (uuid 686e936d-87e8-4340-bf1f-d75cb76e3d98))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D6") (unit 1)
         )
@@ -2221,7 +2219,7 @@
     (pin "1" (uuid b1752700-44e0-463d-a165-de3c81a636e0))
     (pin "2" (uuid cb75826d-82a3-49ab-8347-6c5e7f757d71))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D4") (unit 1)
         )
@@ -2252,7 +2250,7 @@
     (pin "1" (uuid 6b8f34be-7f54-46fe-b42b-453cdefccfdf))
     (pin "2" (uuid fda81c0a-27b5-4dcc-843a-c21ff3e87a3b))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D3") (unit 1)
         )
@@ -2283,7 +2281,7 @@
     (pin "1" (uuid 60203713-a42b-4fd0-90a9-0f0c7e6a5196))
     (pin "2" (uuid df395922-d0df-4e7b-8f9e-483820c3fc61))
     (instances
-      (project "hp-air-filter"
+      (project "Honeywell-HPAx00-ESPHome"
         (path "/1129a227-3bd7-4f69-9cc1-be30ea3885e9"
           (reference "D2") (unit 1)
         )

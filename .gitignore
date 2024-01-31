@@ -2,6 +2,7 @@
 *.FCStd1
 ~*
 *.lck
+*#
 
 # PCB production files
 gerbers

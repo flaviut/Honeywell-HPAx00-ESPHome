@@ -113,8 +113,8 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
+        "min_copper_edge_clearance": 1.0,
+        "min_hole_clearance": 0.32999999999999996,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
@@ -418,7 +418,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hp-air-filter.kicad_pro",
+    "filename": "Honeywell-HPAx00-ESPHome.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -439,6 +439,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "TOUCH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -446,7 +463,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "TOUCH",
+        "pattern": "BUTT*"
+      },
+      {
+        "netclass": "TOUCH",
+        "pattern": "*DIN*"
+      },
+      {
+        "netclass": "TOUCH",
+        "pattern": "*DOUT*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
