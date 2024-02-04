@@ -160,10 +160,6 @@ outputs:
       dest: /
     - from_output: JLCPCB_bom
       dest: /
-- name: basic_ibom
-  comment: Interactive HTML BoM
-  type: ibom
-  dir: Assembly
 - name: basic_navigate_results
   comment: Web page to browse the results
   type: navigate_results
