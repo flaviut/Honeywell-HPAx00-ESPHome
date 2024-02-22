@@ -19,8 +19,9 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 ### Hand-soldered
 
 - 1x [D1 mini ESP32](https://github.com/r0oland/ESP32_mini_KiCad_Library)
-- 1x 16V+, 100uF+, P=3.5mm through-hole capacitor (probably optional)
+- 1x 6.3V+, 100uF+, P=3.5mm through-hole capacitor (probably optional)
 - 4x 10-pin 2.54mm headers. 2x of these generally come with your D1 mini ESP32 kit, and you can likely repurpose the long female headers from the kit as the other 2x.
+- 7805-compatible buck regulator module
 
 ### SMD
 
@@ -41,6 +42,8 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 
 ### Procedure
 
+#### Disassembly
+
 1. Unplug the unit from the wall. If you do not do this, there is a high risk of electric shock.
 1. Remove the filter grill from the front of the device by pressing it inwards
 1. 6 screw holes will be revealed on the sides of the unit. 2 of the screws were T20 security screws, and the other 4 were #2 philips. Unscrew these screws.
@@ -54,11 +57,35 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 1. Release the clips holding the control PCB in.
 1. Unplug the control cable assembly from the power supply board.
 1. Use the soldering iron and solder wick to remove the touchpad springs and the cable assembly.
+
+#### Modifications
+
+**Figure 1:**
+![](docs/fig_1.jpg)
+
+1. Flash the D1 mini ESP32 with ESPHome via the USB port. See the config at [hepa-filter.yaml](./hepa-filter.yaml) as a starting point.
 1. Solder the touchpad springs on the top side of the replacement control board. This is the side of the control board with the LEDs.
 1. Solder the cable assembly on the top side of the replacement control board.
 1. Solder the D1 mini ESP32 on the reverse of the replacement control board, using the silk-screen outline as a guide.
-1. Flash the D1 mini ESP32 with ESPHome via the USB port.
-1. Reverse steps to re-assemble.
+1. De-solder Q1 from the power-supply board. Replace it with a 7805-compatible buck regulator. The output pin is the one closest to the connector. (see Fig 1, a)
+1. Re-install the power supply board. Note that the screw is flat-tipped and shorter than the others (Fig 1, b)
+1. Insert the board into the control panel, then use ESP32 Touch Pad's `setup_mode` to calibrate touch thresholds
+
+#### Re-assembly
+
+**Figure 2:**
+![](docs/fig_3.jpg)
+
+**Figure 3:**
+![](docs/fig_3.jpg)
+
+Reverse steps to re-assemble. Some notes:
+
+1. Make sure the motor wires are coming out of the hole indicated in Fig 2, a
+1. First screw the electronics box to the lid (Fig 2, b)
+1. Then screw the lid onto the rest of the unit (Fig 2, c)
+1. When snapping the front of the device on, make sure the plastic next to the handle (Fig 3, a) is correctly snapped in on both sides
+
 
 ## Software
 

@@ -1,0 +1,149 @@
+
+substitutions:
+  # https://esphome.io/guides/configuration-types.html#substitutions
+  device_name: hepa-filter # hostname & entity_id
+  friendly_name: HEPA Filter # Displayed in HA frontend
+
+esphome:
+  name: ${device_name}
+  on_boot:
+  - light.turn_on:
+      id: status_light
+      transition_length: 0s
+      red: 0
+      green: .1
+      blue: 0
+      white: 0
+  - light.addressable_set:
+      id: status_light
+      red: 0
+      green: 0
+      blue: 0
+
+esp32:
+  board: nodemcu-32s
+
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_key
+# enable ota updates
+ota: {password: !secret api_password}
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+light:
+  - platform: esp32_rmt_led_strip
+    rgb_order: GRB
+    pin: GPIO2
+    num_leds: 10
+    rmt_channel: 1
+    chipset: SK6812
+    is_rgbw: true
+    id: status_light
+    internal: true
+
+esp32_touch:
+  setup_mode: false
+  voltage_attenuation: 1.5V
+  iir_filter: 100ms
+
+binary_sensor:
+  - platform: esp32_touch
+    threshold: 2050
+    pin: GPIO12
+    id: timer
+  - platform: esp32_touch
+    threshold: 2550
+    pin: GPIO13
+    id: dimmer
+  - platform: esp32_touch
+    threshold: 2480
+    pin: GPIO14
+    id: prefilter
+  - platform: esp32_touch
+    threshold: 2210
+    pin: GPIO32
+    id: filter
+  - platform: esp32_touch
+    threshold: 3117
+    pin: GPIO33
+    id: turbo
+    on_press:
+      then:
+        - fan.turn_on:
+            id: my_fan
+            speed: 4
+  - platform: esp32_touch
+    threshold: 2207
+    pin: GPIO27
+    id: power
+    on_press:
+      then:
+      - fan.cycle_speed:
+          id: my_fan
+          off_speed_cycle: true
+
+
+switch:
+  - platform: gpio
+    pin: GPIO21
+    id: fan_low
+    interlock_wait_time: 250ms
+    interlock: &interlock_group [fan_low, fan_mid, fan_high, fan_turbo]
+  - platform: gpio
+    pin: GPIO25
+    id: fan_mid
+    interlock_wait_time: 250ms
+    interlock: *interlock_group
+  - platform: gpio
+    pin: GPIO22
+    id: fan_high
+    interlock_wait_time: 250ms
+    interlock: *interlock_group
+  - platform: gpio
+    pin: GPIO17
+    id: fan_turbo
+    interlock_wait_time: 250ms
+    interlock: *interlock_group
+output:
+  - platform: template
+    id: fan_speed_output
+    type: float
+    write_action:
+      - lambda: |-
+          id(fan_low).turn_off();
+          id(fan_mid).turn_off();
+          id(fan_high).turn_off();
+          id(fan_turbo).turn_off();
+          auto light = ((AddressableLight*)id(status_light).get_output());
+          for (int i = 6; i <= 9; i++) {
+            light->get(i).set(Color::BLACK);
+          }
+
+          if (state < 0.24) {
+          } else if (state < 0.26) {
+            id(fan_low).turn_on();
+            light->get(6).set(Color(255,0,0,0));
+          } else if (state < 0.51) {
+            id(fan_mid).turn_on();
+            light->get(7).set(Color(255,0,0,0));
+          } else if (state < 0.76) {
+            id(fan_high).turn_on();
+            light->get(8).set(Color(255,0,0,0));
+          } else {
+            id(fan_turbo).turn_on();
+            light->get(9).set(Color(255,0,0,0));
+          }
+          light->schedule_show();
+
+fan:
+  - platform: speed
+    name: "Filter Speed"
+    output: fan_speed_output
+    speed_count: 4
+    id: my_fan
