@@ -20,10 +20,10 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 
 ### Hand-soldered
 
-- 1x [D1 mini ESP32](https://github.com/r0oland/ESP32_mini_KiCad_Library)
+- 1x [D1 mini ESP32](https://github.com/r0oland/ESP32_mini_KiCad_Library) (I used https://www.aliexpress.us/item/2251832671740023.html, "CH9102X drive")
 - 1x 6.3V+, 100uF+, P=3.5mm through-hole capacitor (probably optional)
 - 4x 10-pin 2.54mm headers. 2x of these generally come with your D1 mini ESP32 kit, and you can likely repurpose the long female headers from the kit as the other 2x.
-- 7805-compatible buck regulator module
+- 7805-compatible buck regulator module (I used https://www.aliexpress.us/item/3256801422436146.html)
 
 ### SMD
 
