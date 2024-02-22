@@ -1,5 +1,7 @@
 ESPHome replacement control board for Honeywell True HEPA Air Purifier.
 
+![demo](docs/demo.m4v)
+
 Designed to be compatible with HPA200. I expect it to also be compatible with
 the HPA300 and HPA100. The specific design you see in this repo now has not
 been tested, but is a product of correcting errors in the version I'm currently
