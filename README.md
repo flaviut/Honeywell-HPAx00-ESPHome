@@ -1,4 +1,4 @@
-ESPHome replacement control board for Honeywell True HEPA Air Purifier.
+# ESPHome replacement control board for Honeywell True HEPA Air Purifier.
 
 ![demo](docs/demo.mp4)
 
