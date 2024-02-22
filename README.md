@@ -91,7 +91,7 @@ Reverse steps to re-assemble. Some notes:
 
 ## Software
 
-Not yet implemented. https://www.reddit.com/r/Esphome/comments/175oevr/can_i_make_this_filtrete_air_purifier_smart/k4r254h/ looks like a good starting point.
+See the config at [hepa-filter.yaml](./hepa-filter.yaml) as a starting point.
 
 ## Credits
 
