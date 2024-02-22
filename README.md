@@ -35,6 +35,13 @@ This is a replacement for EH-A-4200-C V1.00, designed 2012-10-12.
 
 ## Installation
 
+### PCB Ordering
+
+To the right of this page is the releases area. This area contains all the
+materials you need to order your PCB from your preferred board house. I used
+JLCPCB, so that is likely easiest, especially if you'd prefer someone else to
+do the SMD assembly.
+
 ### Tools
 
 1. T20 security bit, 2in long
