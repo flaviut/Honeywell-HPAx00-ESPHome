@@ -72,6 +72,7 @@ do the SMD assembly.
 #### Modifications
 
 **Figure 1:**
+
 ![](docs/fig_1.jpg)
 
 1. Flash the D1 mini ESP32 with ESPHome via the USB port. See the config at [hepa-filter.yaml](./hepa-filter.yaml) as a starting point.
@@ -85,9 +86,11 @@ do the SMD assembly.
 #### Re-assembly
 
 **Figure 2:**
-![](docs/fig_3.jpg)
+
+![](docs/fig_2.jpg)
 
 **Figure 3:**
+
 ![](docs/fig_3.jpg)
 
 Reverse steps to re-assemble. Some notes:
