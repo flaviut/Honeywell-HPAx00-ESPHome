@@ -3,7 +3,11 @@
 ![demo](docs/demo.mp4)
 
 Designed to be compatible with HPA200. I expect it to also be compatible with
-the HPA300 and HPA100. The specific design you see in this repo now has not
+the HPA300 and HPA100.
+
+It *is not* compatible with [the HPA300CV2](https://github.com/flaviut/Honeywell-HPAx00-ESPHome/issues/1), or likely any "V2" designs. I suggest checking compatibility by disassembling your unit and confirming the control panel looks similar and is 205mm between the two furthest apart touch button pads.
+
+The specific design you see in this repo now has not
 been tested, but is a product of correcting errors in the version I'm currently
 using in my unit.
 
