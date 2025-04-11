@@ -48,7 +48,7 @@ do the SMD assembly.
 
 ### Tools
 
-1. T20 security bit, 2in long
+1. T20 TORX bit, 2in long
 2. Philips #2 screwdriver
 3. Spudger or flathead screwdriver
 4. Soldering iron
