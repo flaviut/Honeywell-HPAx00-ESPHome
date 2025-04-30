@@ -2,9 +2,7 @@
 
 ![demo](docs/demo.mp4)
 
-Designed to be compatible with HPA200.
-
-It *is not* compatible with the HPA300 or HPA100.
+Compatible with HPA200. It *is not* compatible with the HPA300 or HPA100. The repo title mentioning "HPAx00" is **incorrect**, only the HPA200 will work.
 
 I suggest checking compatibility by disassembling your unit and confirming the control panel looks similar and is 205mm between the two furthest apart touch button pads.
 
