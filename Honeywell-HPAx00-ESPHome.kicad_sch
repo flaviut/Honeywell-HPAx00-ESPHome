@@ -2785,16 +2785,16 @@
 		(uuid "ff6b2b52-5591-4114-9b0d-422d7941155e")
 	)
 	(no_connect
+		(at 146.05 73.66)
+		(uuid "0b5c5cde-9cc9-46c4-ae7c-cabd13141a24")
+	)
+	(no_connect
 		(at 172.72 88.9)
 		(uuid "132aa6fc-8c52-4a5f-b440-d21fef9dd80e")
 	)
 	(no_connect
 		(at 146.05 81.28)
 		(uuid "1b069d0d-41df-4155-8122-6cacdd7051f2")
-	)
-	(no_connect
-		(at 146.05 58.42)
-		(uuid "1b4444a7-5c68-418a-9d1a-c35a6c954b84")
 	)
 	(no_connect
 		(at 146.05 76.2)
@@ -3248,16 +3248,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 146.05 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3c858a-2a4f-4589-96e6-306a66d5dbad")
-	)
-	(wire
-		(pts
 			(xy 168.91 129.54) (xy 184.15 129.54)
 		)
 		(stroke
@@ -3435,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "d3eeaf9b-c4f6-4b4c-8ce9-8fddb00a33aa")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41e5f28-8764-4b6c-b14e-f201d6a38d0e")
 	)
 	(wire
 		(pts
@@ -3640,7 +3640,7 @@
 	)
 	(global_label "BUTT_PREFILTER"
 		(shape passive)
-		(at 144.78 73.66 180)
+		(at 144.78 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3648,9 +3648,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1d82ef27-7623-4ec1-a35b-10fdccd552f5")
+		(uuid "1eaec33e-57d3-47af-8081-221ed201dd11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.5733 73.66 0)
+			(at 128.5733 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

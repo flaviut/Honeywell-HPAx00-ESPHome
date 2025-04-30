@@ -63,7 +63,7 @@ binary_sensor:
     id: dimmer
   - platform: esp32_touch
     threshold: 2480
-    pin: GPIO14
+    pin: GPIO4
     id: prefilter
   - platform: esp32_touch
     threshold: 2210
