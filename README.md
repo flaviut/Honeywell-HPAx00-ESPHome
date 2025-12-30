@@ -1,6 +1,6 @@
 # ESPHome replacement control board for Honeywell True HEPA Air Purifier.
 
-[demo](docs\demo.mp4) of older firmware version, need to update
+[demo](docs/demo.mp4) of older firmware version, need to update
 ## Current Software Features
 Currently the on device firmware recreates all of the factory features of the HPA200 with a few improvements. Connection to Home Assistant is not needed for any functions.
 - Fan Speed
@@ -24,17 +24,17 @@ Compatible with HPA200. It *is not* compatible with the HPA300 or HPA100. The re
 
 I suggest checking compatibility by disassembling your unit and confirming the control panel looks similar and is 205mm between the two furthest apart touch button pads.
 
-![control panel photo](docs\controls.jpg)
+![control panel photo](docs/controls.jpg)
 ### HPA200 Internal PCB Versions
 There are two known versions of the the HPA200 internal PCBs V1 and V2. The replacement control PCB is compatible with both of these versions however only the V1 units will need modifications to the power PCB mentioned below.
 
 #### Version 1
 EH-A-4200-C V1.00, designed 2012-10-12.
-![board photo](docs\cropped.jpg)
+![board photo](docs/cropped.jpg)
 #### Version 2
 EH-A-4200V2-C-V1.0, designed 2019-06-04
-![V2 Top](docs\Control_PCB_V2_Top.jpg)
-![V2 Bot](docs\Control_PCB_V2_Bot.jpg)
+![V2 Top](docs/Control_PCB_V2_Top.jpg)
+![V2 Bot](docs/Control_PCB_V2_Bot.jpg)
 ## BOM
 
 ### Desoldered from original
@@ -65,9 +65,9 @@ There V1 power PCB can not supply enough 5VDC for the ESP and new LEDs. Replacem
 The V2 Power PCB has a new 5V power supply that has enough power to support the new control board and no modifications are required.
 #### Power PCB Version Images
 V1 Power PCB
-![Power PCB V1](docs\Power_PCB_V1.png)
+![Power PCB V1](docs/Power_PCB_V1.png)
 V2 Power PCB
-![Power PCB V2](docs\Power_PCB_V2.jpg)
+![Power PCB V2](docs/Power_PCB_V2.jpg)
 ## Installation
 
 ### PCB Ordering
