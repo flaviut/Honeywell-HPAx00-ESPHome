@@ -4496,7 +4496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -5944,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -6252,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:Honeywell V1+2 Spring"
 			(at 96.52 67.31 0)
 			(effects
 				(font
