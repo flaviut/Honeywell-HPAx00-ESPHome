@@ -1,6 +1,8 @@
 # ESPHome replacement control board for Honeywell True HEPA Air Purifier.
 
-[demo](docs/demo.mp4) of older firmware version, need to update
+[Demo of current firmware version](https://youtu.be/eWahNrPkl0M), HPA200_HEPA_Filter_V2.yaml
+
+[Demo of older firmware version](docs/demo.mp4), hepa-filter.yaml
 ## Current Software Features
 Currently the on device firmware recreates all of the factory features of the HPA200 with a few improvements. Connection to Home Assistant is not needed for any functions.
 - Fan Speed
